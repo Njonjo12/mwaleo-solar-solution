@@ -1450,3 +1450,49 @@ form .submit-btn {
     width: 90%;
   }
 }
+
+.shop-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/carousel-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 80px;
+}
+
+.shop-hero-text {
+  margin-top: 20px;
+}
+
+.shop-hero-text h1 {
+  font-size: 4.2rem;
+  font-weight: 800;
+  line-height: 1.1;
+  word-spacing: 0.5;
+}
+
+.header .link,
+.header p {
+  word-spacing: 3px;
+  font-weight: 500;
+}
+
+.shop-hero- p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.hero-content .read-more-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--cl-white);
+  font-weight: 500;
+  margin-top: 40px;
+  padding: 15px 50px;
+  border-radius: 50px;
+}
