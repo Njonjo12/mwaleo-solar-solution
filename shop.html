@@ -2,28 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <script src="https://kit.fontawesome.com/5cc2d2f620.js" crossorigin="anonymous"></script> -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,100;1,300;1,400&family=Roboto:ital,wght@0,100;0,500;0,400;1,100;1,700&family=Tangerine:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <title>Shop - Mwaleo Solar Solutions</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/media-quaries.css" />
-    <link
-      rel="shortcut icon"
-      href="./img/mwaleoFavicon.ico"
-      type="image/x-icon"
-    />
-    <title>Mwaleo Solar Solution</title>
+    <link rel="stylesheet" type="text/css" href="./css/shop.css" />
   </head>
   <body>
     <header>
@@ -109,6 +91,7 @@
           <li class="nav-list">
             <a href="contact.html" class="nav-link link">CONTACT</a>
           </li>
+
           <li class="nav-list">
             <a href="shop.html" class="current nav-link link">SHOP</a>
           </li>
@@ -123,7 +106,7 @@
       <div class="mobile_menu">
         <div class="mobile_bar">
           <div class="menu_bar">
-            <i title="menu" class="fa fa-bars"></i>
+            <i title="menu_bar" class="fa fa-bars"></i>
           </div>
           <div class="close_bar">
             <i title="close" class="fa fa-times"></i>
@@ -132,132 +115,82 @@
       </div>
     </header>
 
-    <section class="shop-hero">
-      <h1>Our Products</h1>
-      <img src="./img/about.jpg" alt="solar panel" class="section3-img" />
-      <p>Browse through our collection of high-quality solar solutions.</p>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Empowering Your World with Solar Energy</h1>
+        <p>
+          Discover our range of innovative solar solutions designed for
+          efficiency and sustainability.
+        </p>
+        <a href="#products" class="btn-primary">Explore Products</a>
+      </div>
     </section>
 
     <section class="shop-section">
       <h2>Inverters</h2>
       <div class="product-grid">
-        <!-- Sample Product -->
-        <!--Start Inverter Section-->
         <div class="product-card">
-          <img src="./img/inverter1.jpg" alt="Inverter" />
-          <h3>Inverter Model X</h3>
-          <p>High-efficiency power conversion.</p>
-          <span class="price">$500</span>
-          <button class="btn">READ MORE</button>
+          <img src="./img/inverter1.jpg" alt="Inverter Model X" />
+          <div class="product-info">
+            <h3>Inverter Model X</h3>
+            <p>High-efficiency power conversion for home and business.</p>
+            <span class="price">$500</span>
+            <div class="buttons">
+              <button class="btn">Add to Cart</button>
+              <button class="btn btn-secondary">Read More</button>
+            </div>
+          </div>
         </div>
 
         <div class="product-card">
-          <img src="./img/inverter2.jpg" alt="Inverter" />
-          <h3>Inverter Model Y</h3>
-          <p>Reliable and durable inverter solution.</p>
-          <span class="price">$650</span>
-          <button class="btn">READ MORE</button>
+          <img src="./img/inverter2.jpg" alt="Inverter Model Y" />
+          <div class="product-info">
+            <h3>Inverter Model Y</h3>
+            <p>Reliable and durable inverter for all energy needs.</p>
+            <span class="price">$650</span>
+            <div class="buttons">
+              <button class="btn">Add to Cart</button>
+              <button class="btn btn-secondary">Read More</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <!--End Inverter Section-->
 
-    <!--Start Battery Section-->
     <section class="shop-section">
       <h2>Batteries</h2>
       <div class="product-grid">
         <div class="product-card">
           <img src="./img/battery1.jpg" alt="Battery" />
-          <h3>Lithium-Ion Battery</h3>
-          <p>Long-lasting battery with high efficiency.</p>
-          <span class="price">$300</span>
-          <button class="btn">READ MORE</button>
+          <div class="product-info">
+            <h3>Lithium-Ion Battery</h3>
+            <p>Long-lasting battery with high efficiency.</p>
+            <span class="price">$300</span>
+            <div class="buttons">
+              <button class="btn">Add to Cart</button>
+              <button class="btn btn-secondary">Read More</button>
+            </div>
+          </div>
         </div>
 
         <div class="product-card">
           <img src="./img/battery2.jpg" alt="Battery" />
-          <h3>Deep Cycle Battery</h3>
-          <p>Perfect for renewable energy systems.</p>
-          <span class="price">$400</span>
-          <button class="btn">READ MORE</button>
+          <div class="product-info">
+            <h3>Deep Cycle Battery</h3>
+            <p>Perfect for renewable energy systems.</p>
+            <span class="price">$400</span>
+            <div class="buttons">
+              <button class="btn">Add to Cart</button>
+              <button class="btn btn-secondary">Read More</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <!--End Battery Section-->
-
-    <!--Start Panel Section-->
-    <section class="shop-section">
-      <h2>Solar Panels</h2>
-      <div class="product-grid">
-        <div class="product-card">
-          <img src="./img/solar-panel1.jpg" alt="Solar Panel" />
-          <h3>Polycrystalline Solar Panel</h3>
-          <p>High efficiency and durability.</p>
-          <span class="price">$250</span>
-          <button class="btn">READ MORE</button>
-        </div>
-
-        <div class="product-card">
-          <img src="./img/solar-panel2.jpg" alt="Solar Panel" />
-          <h3>Monocrystalline Solar Panel</h3>
-          <p>Maximum output for smaller spaces.</p>
-          <span class="price">$320</span>
-          <button class="btn">READ MORE</button>
-        </div>
-      </div>
-    </section>
-    <!--End panel Section-->
-
-    <!--Start Ess Section-->
-    <section class="shop-section">
-      <h2>ESS</h2>
-      <div class="product-grid">
-        <div class="product-card">
-          <img src="./img/ess1.jpg" alt="ESS" />
-          <h3>ESS</h3>
-          <p>HBP 1800 SERIES (1.5-3KW)</p>
-          <span class="price">$250</span>
-          <button class="btn">READ MORE</button>
-        </div>
-
-        <div class="product-card">
-          <img src="./img/ess2.jpg" alt="ESS" />
-          <h3>ESS</h3>
-          <p>HBP 1700 SERIES (1-3KW).</p>
-          <span class="price">$320</span>
-          <button class="btn">READ MORE</button>
-        </div>
-      </div>
-    </section>
-    <!--End Ess Section-->
-
-    <!--Start ups Section-->
-    <section class="shop-section">
-      <h2>UPS</h2>
-      <div class="product-grid">
-        <div class="product-card">
-          <img src="./img/ups1.jpg" alt="UPS" />
-          <h3>UPS</h3>
-          <p>HBP 1800 SERIES (1.5-3KW)</p>
-          <span class="price">$250</span>
-          <button class="btn">READ MORE</button>
-        </div>
-
-        <div class="product-card">
-          <img src="./img/ups2.jpg" alt="UPS" />
-          <h3>UPS</h3>
-          <p>Maximum output for smaller spaces.</p>
-          <span class="price">$320</span>
-          <button class="btn">READ MORE</button>
-        </div>
-      </div>
-    </section>
-    <!--End ups Section-->
 
     <footer>
       <div class="footer-content">
         <p>&copy; 2024 Mwaleo Solar Solutions. All Rights Reserved.</p>
-        <p>Designed by: <a href="#" class="link">NeoSites.</a></p>
       </div>
     </footer>
 
