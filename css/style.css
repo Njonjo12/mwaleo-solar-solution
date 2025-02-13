@@ -70,8 +70,9 @@ header {
 
 .quote-btn,
 .read-more-btn,
-.top-bar {
-  text-align: center;
+.top-bar,
+.btn-primary {
+  text-align: left;
 }
 
 .card1 .paragraph1,
@@ -96,6 +97,7 @@ header {
 .btn,
 .footer-social-icon .social-icon,
 .hero-content .read-more-btn,
+.btn-primary,
 .quote-btn {
   transition: background 0.2s linear;
 }
@@ -127,7 +129,7 @@ li {
 .section4-content-row,
 .social-icon {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .top-bar .social-link:hover {
@@ -228,6 +230,7 @@ button[type="submit"]:hover {
 }
 
 .hero-content .read-more-btn,
+.btn-primary,
 .quote-btn,
 .section2-content .column h1 .icon,
 button[type="submit"] {
@@ -1058,6 +1061,12 @@ form {
   padding: 4rem 6rem 4rem 2rem;
 }
 
+.quote-img {
+  width: 50%;
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
+
 .quote-card {
   display: flex;
   flex-direction: column;
@@ -1474,7 +1483,7 @@ form .submit-btn {
 
 /* Product Section */
 .shop-section {
-  padding: 60px 20px;
+  padding: 30px 10px;
   text-align: center;
 }
 
@@ -1496,7 +1505,7 @@ form .submit-btn {
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 320px;
+  width: 300px;
   padding: 20px;
   transition: transform 0.3s ease;
 }
@@ -1506,7 +1515,7 @@ form .submit-btn {
 }
 
 .product-card img {
-  width: 100%;
+  width: 20%;
   height: auto;
   border-radius: 10px;
 }
@@ -1555,7 +1564,7 @@ form .submit-btn {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .product-grid {
     flex-direction: column;
     align-items: center;
@@ -1566,7 +1575,7 @@ form .submit-btn {
   }
 
   .shop-hero h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .shop-hero p {
@@ -1598,24 +1607,24 @@ form .submit-btn {
 }
 
 .hero h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
+  font-size: 0.1rem;
+  margin-bottom: 5px;
 }
 
 .hero p {
   font-size: 1.2rem;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .btn-primary {
   background: #5ef71d;
   color: #fff;
-  padding: 10px 20px;
+  padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
   transition: background 0.3s ease;
 }
 
 .btn-primary:hover {
-  background: #e6831a;
+  background: #83e61a;
 }
